@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "dataset": "weight-classes/adcc-pro-male",
+    "title": "ADCC World Championship, men",
+    "description": "Weight class upper limits: ADCC World Championship, men.",
+    "checked": "September 2026",
+    "sources": [
+      {
+        "label": "ADCC rules and weight classes (April 2026)",
+        "href": "https://adcc-official.com/pages/adcc-rules"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Data from bjj-data by Grapple Flows (https://grappleflows.com)",
+    "repository": "https://github.com/GrappleFlows/bjj-data",
+    "disclaimer": "Rules change. Check the official rulebook for your event before competing. Not affiliated with IBJJF, ADCC, NAGA, or Grappling Industries."
+  },
+  "notes": [
+    "Limits are upper limits and inclusive: a weight exactly on the limit makes the class. null means no maximum.",
+    "IBJJF prints its own pound limits, which are not conversions of the kilogram limits (64 kg is printed as 141.6 lb). Use the column for the unit you weigh in.",
+    "IBJJF gi tables are weighed in the gi; no-gi tables in the no-gi uniform.",
+    "The ADCC World Championship publishes kilogram limits only; lb is null there.",
+    "IBJJF kids divisions (under 16) use event-specific charts and are not included."
+  ],
+  "id": "adcc-pro-male",
+  "label": "ADCC World Championship, men",
+  "organization": "adcc",
+  "uniform": "nogi",
+  "sex": "male",
+  "ageGroup": "adult",
+  "events": "World Championship and Trials",
+  "units": [
+    "kg"
+  ],
+  "classes": [
+    {
+      "name": "-66 kg",
+      "kg": 65.9,
+      "lb": null
+    },
+    {
+      "name": "-77 kg",
+      "kg": 76.9,
+      "lb": null
+    },
+    {
+      "name": "-88 kg",
+      "kg": 87.9,
+      "lb": null
+    },
+    {
+      "name": "-99 kg",
+      "kg": 98.9,
+      "lb": null
+    },
+    {
+      "name": "+99 kg",
+      "kg": null,
+      "lb": null
+    }
+  ]
+}

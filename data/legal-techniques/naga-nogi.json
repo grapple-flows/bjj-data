@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "dataset": "legal-techniques/naga-nogi",
+    "title": "Legal techniques: NAGA no-gi",
+    "description": "Which submissions and moves are legal under NAGA no-gi rules, by division.",
+    "checked": "September 2026",
+    "sources": [
+      {
+        "label": "NAGA rules (2023, updated July 2024)",
+        "href": "https://www.nagafighter.com/rules/"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Data from bjj-data by Grapple Flows (https://grappleflows.com)",
+    "repository": "https://github.com/GrappleFlows/bjj-data",
+    "disclaimer": "Rules change. Check the official rulebook for your event before competing. Not affiliated with IBJJF, ADCC, NAGA, or Grappling Industries."
+  },
+  "legend": {
+    "Y": "Legal",
+    "N": "Illegal",
+    "C": "Depends"
+  },
+  "notes": [
+    "Each row has one cell per column, in column order. \"Y\" legal, \"N\" illegal, \"C\" conditional: read the row note."
+  ],
+  "key": "naga-nogi",
+  "uniform": "nogi",
+  "id": "naga",
+  "name": "NAGA no-gi",
+  "short": "NAGA",
+  "source": {
+    "label": "NAGA rules (2023, updated July 2024)",
+    "href": "https://www.nagafighter.com/rules/"
+  },
+  "penalty": "See the NAGA rules for how illegal techniques are penalized at your event.",
+  "columns": [
+    {
+      "id": "kids",
+      "label": "Kids 13 and under"
+    },
+    {
+      "id": "teens",
+      "label": "Teens 14 to 17"
+    },
+    {
+      "id": "beg",
+      "label": "Adult novice and beginner (white belt)"
+    },
+    {
+      "id": "int",
+      "label": "Adult intermediate and expert (blue belt and up)"
+    }
+  ],
+  "rows": [
+    {
+      "id": "heel-hook",
+      "label": "Heel hook",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "id": "straight-ankle-lock",
+      "label": "Straight ankle lock",
+      "cells": [
+        "N",
+        "C",
+        "Y",
+        "Y"
+      ],
+      "note": "Teens: no knee reaping on a straight ankle lock."
+    },
+    {
+      "id": "knee-reaping",
+      "label": "Knee reaping",
+      "cells": [
+        "N",
+        "C",
+        "Y",
+        "Y"
+      ],
+      "note": "NAGA sets no reaping restriction for adults. Teens may not reap on a straight ankle lock."
+    },
+    {
+      "id": "knee-bar",
+      "label": "Knee bar",
+      "cells": [
+        "N",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "toe-hold",
+      "label": "Toe hold",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "calf-slicer",
+      "label": "Calf and bicep slicers",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "neck-crank",
+      "label": "Neck crank",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "twister",
+      "label": "Twister and spinal locks",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "wrist-lock",
+      "label": "Wrist lock",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ],
+      "note": "Adult beginners must hold at least 3 fingers."
+    },
+    {
+      "id": "scissor-takedown",
+      "label": "Scissor takedown (kani basami)",
+      "cells": [
+        "N",
+        "N",
+        "C",
+        "C"
+      ],
+      "note": "Legal for adults only if a hand is placed on the mat first."
+    },
+    {
+      "id": "jumping-guard",
+      "label": "Jumping guard",
+      "cells": [
+        "N",
+        "C",
+        "Y",
+        "Y"
+      ],
+      "note": "Teens: expert division only."
+    },
+    {
+      "id": "slam",
+      "label": "Slam",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N"
+      ],
+      "note": "Slamming on a takedown or to escape a position or submission is illegal for everyone."
+    }
+  ]
+}

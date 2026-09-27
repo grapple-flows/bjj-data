@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "dataset": "weight-classes/ibjjf-gi-adult-female",
+    "title": "IBJJF gi, adult and master, female",
+    "description": "Weight class upper limits: IBJJF gi, adult and master, female.",
+    "checked": "September 2026",
+    "sources": [
+      {
+        "label": "IBJJF event weight charts (2026 events)",
+        "href": "https://ibjjf.com/events"
+      },
+      {
+        "label": "IBJJF Rules Book v6.1 (June 2024)",
+        "href": "https://ibjjf.com/books-videos"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Data from bjj-data by Grapple Flows (https://grappleflows.com)",
+    "repository": "https://github.com/GrappleFlows/bjj-data",
+    "disclaimer": "Rules change. Check the official rulebook for your event before competing. Not affiliated with IBJJF, ADCC, NAGA, or Grappling Industries."
+  },
+  "notes": [
+    "Limits are upper limits and inclusive: a weight exactly on the limit makes the class. null means no maximum.",
+    "IBJJF prints its own pound limits, which are not conversions of the kilogram limits (64 kg is printed as 141.6 lb). Use the column for the unit you weigh in.",
+    "IBJJF gi tables are weighed in the gi; no-gi tables in the no-gi uniform.",
+    "The ADCC World Championship publishes kilogram limits only; lb is null there.",
+    "IBJJF kids divisions (under 16) use event-specific charts and are not included."
+  ],
+  "id": "ibjjf-gi-adult-female",
+  "label": "IBJJF gi, adult and master, female",
+  "organization": "ibjjf",
+  "uniform": "gi",
+  "sex": "female",
+  "ageGroup": "adult-master",
+  "events": null,
+  "units": [
+    "kg",
+    "lb"
+  ],
+  "classes": [
+    {
+      "name": "Rooster",
+      "kg": 48.5,
+      "lb": 107
+    },
+    {
+      "name": "Light Feather",
+      "kg": 53.5,
+      "lb": 118
+    },
+    {
+      "name": "Feather",
+      "kg": 58.5,
+      "lb": 129
+    },
+    {
+      "name": "Light",
+      "kg": 64,
+      "lb": 141.6
+    },
+    {
+      "name": "Middle",
+      "kg": 69,
+      "lb": 152.6
+    },
+    {
+      "name": "Medium Heavy",
+      "kg": 74,
+      "lb": 163.6
+    },
+    {
+      "name": "Heavy",
+      "kg": 79.3,
+      "lb": 175
+    },
+    {
+      "name": "Super Heavy",
+      "kg": null,
+      "lb": null
+    }
+  ]
+}

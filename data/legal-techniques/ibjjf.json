@@ -1,0 +1,394 @@
+{
+  "meta": {
+    "dataset": "legal-techniques/ibjjf",
+    "title": "Legal techniques: IBJJF",
+    "description": "Which submissions and moves are legal under IBJJF rules, by division.",
+    "checked": "September 2026",
+    "sources": [
+      {
+        "label": "IBJJF Rules Book v6.1 (June 2024)",
+        "href": "https://ibjjf.com/books-videos"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Data from bjj-data by Grapple Flows (https://grappleflows.com)",
+    "repository": "https://github.com/GrappleFlows/bjj-data",
+    "disclaimer": "Rules change. Check the official rulebook for your event before competing. Not affiliated with IBJJF, ADCC, NAGA, or Grappling Industries."
+  },
+  "legend": {
+    "Y": "Legal",
+    "N": "Illegal",
+    "C": "Depends"
+  },
+  "notes": [
+    "Each row has one cell per column, in column order. \"Y\" legal, \"N\" illegal, \"C\" conditional: read the row note.",
+    "IBJJF jumping guard also depends on belt: illegal for white belts at any age and for under-15 divisions (ibjjfJumpingGuard in the npm package)."
+  ],
+  "key": "ibjjf",
+  "uniform": "both",
+  "id": "ibjjf",
+  "name": "IBJJF",
+  "short": "IBJJF",
+  "source": {
+    "label": "IBJJF Rules Book v6.1 (June 2024)",
+    "href": "https://ibjjf.com/books-videos"
+  },
+  "penalty": "Using a technique that is illegal for your division is a severe foul and means immediate disqualification (Art. 6.2.3).",
+  "columns": [
+    {
+      "id": "a",
+      "label": "Ages 4 to 12"
+    },
+    {
+      "id": "b",
+      "label": "Ages 13 to 15"
+    },
+    {
+      "id": "c",
+      "label": "Ages 16 to 17 (all belts) and adult/master white belts"
+    },
+    {
+      "id": "d",
+      "label": "Adult and master blue and purple belts"
+    },
+    {
+      "id": "e",
+      "label": "Adult and master brown and black belts, except adult no-gi"
+    },
+    {
+      "id": "f",
+      "label": "Adult brown and black belts, no-gi"
+    }
+  ],
+  "rows": [
+    {
+      "id": "leg-spread",
+      "label": "Submissions stretching the legs apart",
+      "cells": [
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "choke-spinal-lock",
+      "label": "Choke with spinal lock",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "straight-ankle-lock",
+      "label": "Straight foot lock",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "ezekiel",
+      "label": "Ezekiel choke (forearm choke using the sleeve)",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "guillotine",
+      "label": "Frontal guillotine choke",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "omoplata",
+      "label": "Omoplata",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "triangle",
+      "label": "Triangle pulling the head",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "arm-triangle",
+      "label": "Arm triangle",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "kidney-compression",
+      "label": "Compressing the kidneys or ribs with the legs in closed guard",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "wrist-lock",
+      "label": "Wrist lock",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "single-leg-head-outside",
+      "label": "Single leg takedown with the head outside",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y"
+      ],
+      "note": "Prohibited but not penalized where illegal: the referee restarts the match standing (Art. 1.3.6)."
+    },
+    {
+      "id": "bicep-slicer",
+      "label": "Bicep slicer",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "calf-slicer",
+      "label": "Calf slicer",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "knee-bar",
+      "label": "Knee bar",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "toe-hold",
+      "label": "Toe hold",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "straight-ankle-lock-turning",
+      "label": "Straight foot lock turning toward the foot not under attack",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "heel-hook",
+      "label": "Heel hook",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "id": "knee-twisting",
+      "label": "Locks twisting the knees",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "id": "knee-reaping",
+      "label": "Knee reaping",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y"
+      ],
+      "note": "Reaping: the thigh is behind the opponent's leg, the calf crosses over the body above the knee, and the foot passes the opponent's midline, putting pressure on the knee from outside to inside. Nobody needs to be holding the foot."
+    },
+    {
+      "id": "toe-hold-outward",
+      "label": "Toe hold with outward pressure on the foot",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "id": "slam",
+      "label": "Slam",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "neck-crank",
+      "label": "Spinal lock without a choke (neck cranks, twisters, can openers)",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ],
+      "note": "The IBJJF table lists spinal locks without a choke. Neck cranks, twisters, and can openers aren't named, but that is the rule that covers them."
+    },
+    {
+      "id": "scissor-takedown",
+      "label": "Scissor takedown (kani basami)",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "finger-bending",
+      "label": "Bending the fingers backward",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "belt-throw-head",
+      "label": "Throwing the opponent onto their head by the belt while defending a head-outside single leg",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "suplex-head",
+      "label": "Suplex landing the opponent on the head or neck",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "jumping-guard",
+      "label": "Jumping to closed guard",
+      "cells": [
+        "N",
+        "C",
+        "C",
+        "Y",
+        "Y",
+        "Y"
+      ],
+      "note": "A serious foul for under-15 divisions and for white belts of any age (Art. 6.2.2). Juvenile blue and purple belts may jump guard. Check the event for 15-year-olds."
+    }
+  ]
+}

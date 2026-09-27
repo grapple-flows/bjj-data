@@ -1,0 +1,1233 @@
+{
+  "meta": {
+    "dataset": "legal-techniques",
+    "title": "Legal techniques by ruleset and division",
+    "description": "Which submissions and moves are legal, by organization, age group, belt or skill level, and gi or no-gi.",
+    "checked": "September 2026",
+    "sources": [
+      {
+        "label": "IBJJF Rules Book v6.1 (June 2024)",
+        "href": "https://ibjjf.com/books-videos"
+      },
+      {
+        "label": "ADCC rules and Opens legal techniques grid (2026)",
+        "href": "https://adcc-official.com/pages/adcc-rules"
+      },
+      {
+        "label": "NAGA rules (2023, updated July 2024)",
+        "href": "https://www.nagafighter.com/rules/"
+      },
+      {
+        "label": "Grappling Industries rulebook (February 2026)",
+        "href": "https://grapplingindustries.com/rules/"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Data from bjj-data by Grapple Flows (https://grappleflows.com)",
+    "repository": "https://github.com/GrappleFlows/bjj-data",
+    "disclaimer": "Rules change. Check the official rulebook for your event before competing. Not affiliated with IBJJF, ADCC, NAGA, or Grappling Industries."
+  },
+  "legend": {
+    "Y": "Legal",
+    "N": "Illegal",
+    "C": "Depends"
+  },
+  "notes": [
+    "Each row has one cell per column, in column order. \"Y\" legal, \"N\" illegal, \"C\" conditional: read the row note.",
+    "IBJJF jumping guard also depends on belt: illegal for white belts at any age and for under-15 divisions (ibjjfJumpingGuard in the npm package).",
+    "Grappling Industries brown and black belts: heel hooks and scissor takedowns are legal in no-gi only (resolveCell in the npm package)."
+  ],
+  "rulesets": [
+    {
+      "key": "ibjjf",
+      "uniform": "both",
+      "id": "ibjjf",
+      "name": "IBJJF",
+      "short": "IBJJF",
+      "source": {
+        "label": "IBJJF Rules Book v6.1 (June 2024)",
+        "href": "https://ibjjf.com/books-videos"
+      },
+      "penalty": "Using a technique that is illegal for your division is a severe foul and means immediate disqualification (Art. 6.2.3).",
+      "columns": [
+        {
+          "id": "a",
+          "label": "Ages 4 to 12"
+        },
+        {
+          "id": "b",
+          "label": "Ages 13 to 15"
+        },
+        {
+          "id": "c",
+          "label": "Ages 16 to 17 (all belts) and adult/master white belts"
+        },
+        {
+          "id": "d",
+          "label": "Adult and master blue and purple belts"
+        },
+        {
+          "id": "e",
+          "label": "Adult and master brown and black belts, except adult no-gi"
+        },
+        {
+          "id": "f",
+          "label": "Adult brown and black belts, no-gi"
+        }
+      ],
+      "rows": [
+        {
+          "id": "leg-spread",
+          "label": "Submissions stretching the legs apart",
+          "cells": [
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "choke-spinal-lock",
+          "label": "Choke with spinal lock",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "straight-ankle-lock",
+          "label": "Straight foot lock",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "ezekiel",
+          "label": "Ezekiel choke (forearm choke using the sleeve)",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "guillotine",
+          "label": "Frontal guillotine choke",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "omoplata",
+          "label": "Omoplata",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "triangle",
+          "label": "Triangle pulling the head",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "arm-triangle",
+          "label": "Arm triangle",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "kidney-compression",
+          "label": "Compressing the kidneys or ribs with the legs in closed guard",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "wrist-lock",
+          "label": "Wrist lock",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "single-leg-head-outside",
+          "label": "Single leg takedown with the head outside",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y"
+          ],
+          "note": "Prohibited but not penalized where illegal: the referee restarts the match standing (Art. 1.3.6)."
+        },
+        {
+          "id": "bicep-slicer",
+          "label": "Bicep slicer",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "calf-slicer",
+          "label": "Calf slicer",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "knee-bar",
+          "label": "Knee bar",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "toe-hold",
+          "label": "Toe hold",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "straight-ankle-lock-turning",
+          "label": "Straight foot lock turning toward the foot not under attack",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "heel-hook",
+          "label": "Heel hook",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y"
+          ]
+        },
+        {
+          "id": "knee-twisting",
+          "label": "Locks twisting the knees",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y"
+          ]
+        },
+        {
+          "id": "knee-reaping",
+          "label": "Knee reaping",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y"
+          ],
+          "note": "Reaping: the thigh is behind the opponent's leg, the calf crosses over the body above the knee, and the foot passes the opponent's midline, putting pressure on the knee from outside to inside. Nobody needs to be holding the foot."
+        },
+        {
+          "id": "toe-hold-outward",
+          "label": "Toe hold with outward pressure on the foot",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y"
+          ]
+        },
+        {
+          "id": "slam",
+          "label": "Slam",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N"
+          ]
+        },
+        {
+          "id": "neck-crank",
+          "label": "Spinal lock without a choke (neck cranks, twisters, can openers)",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N"
+          ],
+          "note": "The IBJJF table lists spinal locks without a choke. Neck cranks, twisters, and can openers aren't named, but that is the rule that covers them."
+        },
+        {
+          "id": "scissor-takedown",
+          "label": "Scissor takedown (kani basami)",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N"
+          ]
+        },
+        {
+          "id": "finger-bending",
+          "label": "Bending the fingers backward",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N"
+          ]
+        },
+        {
+          "id": "belt-throw-head",
+          "label": "Throwing the opponent onto their head by the belt while defending a head-outside single leg",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N"
+          ]
+        },
+        {
+          "id": "suplex-head",
+          "label": "Suplex landing the opponent on the head or neck",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N"
+          ]
+        },
+        {
+          "id": "jumping-guard",
+          "label": "Jumping to closed guard",
+          "cells": [
+            "N",
+            "C",
+            "C",
+            "Y",
+            "Y",
+            "Y"
+          ],
+          "note": "A serious foul for under-15 divisions and for white belts of any age (Art. 6.2.2). Juvenile blue and purple belts may jump guard. Check the event for 15-year-olds."
+        }
+      ]
+    },
+    {
+      "key": "adcc",
+      "uniform": "nogi",
+      "id": "adcc",
+      "name": "ADCC",
+      "short": "ADCC",
+      "source": {
+        "label": "ADCC rules and Opens legal techniques grid (2026)",
+        "href": "https://adcc-official.com/pages/adcc-rules"
+      },
+      "penalty": "See the ADCC rules for how the referee penalizes fouls and illegal techniques.",
+      "columns": [
+        {
+          "id": "kids",
+          "label": "Kids 12 and under"
+        },
+        {
+          "id": "t1314bi",
+          "label": "Teens 13 to 14, beginner and intermediate"
+        },
+        {
+          "id": "t1314a",
+          "label": "Teens 13 to 14, advanced"
+        },
+        {
+          "id": "t1517bi",
+          "label": "Teens 15 to 17, beginner and intermediate"
+        },
+        {
+          "id": "t1517a",
+          "label": "Teens 15 to 17, advanced"
+        },
+        {
+          "id": "adbi",
+          "label": "Adults, beginner and intermediate"
+        },
+        {
+          "id": "ada",
+          "label": "Adults, advanced"
+        },
+        {
+          "id": "mabi",
+          "label": "Masters, beginner and intermediate"
+        },
+        {
+          "id": "maa",
+          "label": "Masters, advanced"
+        },
+        {
+          "id": "pro",
+          "label": "World Championship and Trials"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ezekiel",
+          "label": "Ezekiel or punch choke",
+          "cells": [
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "guillotine",
+          "label": "Standing guillotine",
+          "cells": [
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "knee-reaping",
+          "label": "Knee reaping",
+          "cells": [
+            "N",
+            "C",
+            "C",
+            "C",
+            "C",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ],
+          "note": "At the Opens, teens 13 to 17 may reap only unlocked. Adults and masters may also reap locked, except from belly-down cross ashi. The World Championship allows any leg lock."
+        },
+        {
+          "id": "straight-ankle-lock",
+          "label": "Straight ankle lock",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "heel-hook",
+          "label": "Heel hook",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "N",
+            "Y",
+            "Y"
+          ],
+          "note": "Adult beginners may heel hook at ADCC Opens. Masters beginners and intermediates may not."
+        },
+        {
+          "id": "knee-bar",
+          "label": "Knee bar",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "toe-hold",
+          "label": "Toe hold, Aoki lock, Estima lock",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "calf-slicer",
+          "label": "Calf and bicep slicers",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "wrist-lock",
+          "label": "Wrist lock",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "neck-crank",
+          "label": "Neck crank, can opener, twister",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "C",
+            "C",
+            "C",
+            "C",
+            "C"
+          ],
+          "note": "The Opens grid allows neck cranks \"except cervical\", can openers, and twisters for adults and masters. The World Championship rules allow can openers and twisters but ban neck cranks that trap both shoulders and push the neck down, like a full nelson."
+        },
+        {
+          "id": "suplex",
+          "label": "Suplex (not onto the head)",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "jumping-guard",
+          "label": "Jumping to closed guard",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "N",
+            "N",
+            "C"
+          ],
+          "note": "Not addressed in the World Championship rules."
+        },
+        {
+          "id": "scissor-takedown",
+          "label": "Scissor takedown (kani basami)",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y",
+            "N",
+            "N",
+            "C"
+          ],
+          "note": "Not addressed in the World Championship rules."
+        },
+        {
+          "id": "slam",
+          "label": "Slam",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "C"
+          ],
+          "note": "Illegal at every Opens division. At the World Championship a slam is only allowed while you are already locked in a submission, and you must stop if they let go."
+        },
+        {
+          "id": "spike",
+          "label": "Spiking the opponent on the head",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "naga-nogi",
+      "uniform": "nogi",
+      "id": "naga",
+      "name": "NAGA no-gi",
+      "short": "NAGA",
+      "source": {
+        "label": "NAGA rules (2023, updated July 2024)",
+        "href": "https://www.nagafighter.com/rules/"
+      },
+      "penalty": "See the NAGA rules for how illegal techniques are penalized at your event.",
+      "columns": [
+        {
+          "id": "kids",
+          "label": "Kids 13 and under"
+        },
+        {
+          "id": "teens",
+          "label": "Teens 14 to 17"
+        },
+        {
+          "id": "beg",
+          "label": "Adult novice and beginner (white belt)"
+        },
+        {
+          "id": "int",
+          "label": "Adult intermediate and expert (blue belt and up)"
+        }
+      ],
+      "rows": [
+        {
+          "id": "heel-hook",
+          "label": "Heel hook",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "Y"
+          ]
+        },
+        {
+          "id": "straight-ankle-lock",
+          "label": "Straight ankle lock",
+          "cells": [
+            "N",
+            "C",
+            "Y",
+            "Y"
+          ],
+          "note": "Teens: no knee reaping on a straight ankle lock."
+        },
+        {
+          "id": "knee-reaping",
+          "label": "Knee reaping",
+          "cells": [
+            "N",
+            "C",
+            "Y",
+            "Y"
+          ],
+          "note": "NAGA sets no reaping restriction for adults. Teens may not reap on a straight ankle lock."
+        },
+        {
+          "id": "knee-bar",
+          "label": "Knee bar",
+          "cells": [
+            "N",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "toe-hold",
+          "label": "Toe hold",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "calf-slicer",
+          "label": "Calf and bicep slicers",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "neck-crank",
+          "label": "Neck crank",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "twister",
+          "label": "Twister and spinal locks",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "wrist-lock",
+          "label": "Wrist lock",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y"
+          ],
+          "note": "Adult beginners must hold at least 3 fingers."
+        },
+        {
+          "id": "scissor-takedown",
+          "label": "Scissor takedown (kani basami)",
+          "cells": [
+            "N",
+            "N",
+            "C",
+            "C"
+          ],
+          "note": "Legal for adults only if a hand is placed on the mat first."
+        },
+        {
+          "id": "jumping-guard",
+          "label": "Jumping guard",
+          "cells": [
+            "N",
+            "C",
+            "Y",
+            "Y"
+          ],
+          "note": "Teens: expert division only."
+        },
+        {
+          "id": "slam",
+          "label": "Slam",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N"
+          ],
+          "note": "Slamming on a takedown or to escape a position or submission is illegal for everyone."
+        }
+      ]
+    },
+    {
+      "key": "naga-gi",
+      "uniform": "gi",
+      "id": "naga",
+      "name": "NAGA gi",
+      "short": "NAGA",
+      "source": {
+        "label": "NAGA rules (2023, updated July 2024)",
+        "href": "https://www.nagafighter.com/rules/"
+      },
+      "penalty": "See the NAGA rules for how illegal techniques are penalized at your event.",
+      "columns": [
+        {
+          "id": "kids",
+          "label": "Kids 13 and under"
+        },
+        {
+          "id": "teens",
+          "label": "Teens 14 to 17"
+        },
+        {
+          "id": "white",
+          "label": "White belt"
+        },
+        {
+          "id": "blue",
+          "label": "Blue belt"
+        },
+        {
+          "id": "purple",
+          "label": "Purple belt"
+        },
+        {
+          "id": "bb",
+          "label": "Brown and black belt"
+        }
+      ],
+      "rows": [
+        {
+          "id": "straight-ankle-lock",
+          "label": "Straight foot lock",
+          "cells": [
+            "N",
+            "Y",
+            "Y",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "wrist-lock",
+          "label": "Wrist lock",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "kidney-compression",
+          "label": "Rib or neck compression with the legs",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "knee-bar",
+          "label": "Knee bar",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y"
+          ]
+        },
+        {
+          "id": "toe-hold",
+          "label": "Toe hold",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y"
+          ]
+        },
+        {
+          "id": "calf-slicer",
+          "label": "Calf and bicep slicers",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "Y"
+          ]
+        },
+        {
+          "id": "heel-hook",
+          "label": "Heel hook",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N"
+          ]
+        },
+        {
+          "id": "neck-crank",
+          "label": "Neck crank and twister",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N"
+          ]
+        },
+        {
+          "id": "scissor-takedown",
+          "label": "Scissor takedown (kani basami)",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N"
+          ]
+        },
+        {
+          "id": "slam",
+          "label": "Slam",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N",
+            "N",
+            "N"
+          ]
+        },
+        {
+          "id": "jumping-guard",
+          "label": "Jumping guard",
+          "cells": [
+            "N",
+            "C",
+            "C",
+            "Y",
+            "Y",
+            "Y"
+          ],
+          "note": "Teens: expert division with flying submissions only. White belts: only against a higher belt."
+        },
+        {
+          "id": "knee-reaping",
+          "label": "Knee reaping",
+          "cells": [
+            "N",
+            "C",
+            "C",
+            "C",
+            "C",
+            "C"
+          ],
+          "note": "Not covered by NAGA's gi chart. NAGA says its gi divisions follow IBJJF rules, so expect reaping to be illegal."
+        }
+      ]
+    },
+    {
+      "key": "grappling-industries",
+      "uniform": "both",
+      "id": "gi",
+      "name": "Grappling Industries",
+      "short": "Grappling Industries",
+      "source": {
+        "label": "Grappling Industries rulebook (Feb 2026)",
+        "href": "https://grapplingindustries.com/rules/"
+      },
+      "penalty": "Using a technique that is illegal at your level means disqualification (rule 9.6).",
+      "columns": [
+        {
+          "id": "u18",
+          "label": "Under 18"
+        },
+        {
+          "id": "white",
+          "label": "White belt"
+        },
+        {
+          "id": "bp",
+          "label": "Blue belt, and purple belt in the gi"
+        },
+        {
+          "id": "pbb",
+          "label": "Purple belt in no-gi, brown and black belt"
+        }
+      ],
+      "rows": [
+        {
+          "id": "ezekiel",
+          "label": "Ezekiel choke and gogoplata",
+          "cells": [
+            "N",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "kidney-compression",
+          "label": "Kidney compression and groin stretch",
+          "cells": [
+            "N",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "straight-ankle-lock",
+          "label": "Straight or rotational ankle lock",
+          "cells": [
+            "N",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "wrist-lock",
+          "label": "Wrist lock",
+          "cells": [
+            "N",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "guillotine",
+          "label": "Standing guillotine",
+          "cells": [
+            "N",
+            "Y",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "jumping-guard",
+          "label": "Jumping attacks",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "knee-bar",
+          "label": "Knee bar",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "toe-hold",
+          "label": "Toe hold",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "knee-reaping",
+          "label": "Knee reaping",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y"
+          ],
+          "note": "Below the legal level, the first reap without a submission is a penalty, and a second reap or a reap with a submission is a disqualification."
+        },
+        {
+          "id": "calf-slicer",
+          "label": "Bicep and calf slicers",
+          "cells": [
+            "N",
+            "N",
+            "Y",
+            "Y"
+          ]
+        },
+        {
+          "id": "neck-crank",
+          "label": "Neck and spinal cranks",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "Y"
+          ]
+        },
+        {
+          "id": "heel-hook",
+          "label": "Heel hook and Z-lock",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "C"
+          ],
+          "note": "No-gi only."
+        },
+        {
+          "id": "scissor-takedown",
+          "label": "Scissor takedown (kani basami)",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "C"
+          ],
+          "note": "No-gi only."
+        },
+        {
+          "id": "slam",
+          "label": "Slam and attacks on the trachea",
+          "cells": [
+            "N",
+            "N",
+            "N",
+            "N"
+          ],
+          "note": "A controlled suplex is not a slam. Spiking the head or neck is never allowed."
+        }
+      ]
+    }
+  ]
+}

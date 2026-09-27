@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "dataset": "legal-techniques/adcc",
+    "title": "Legal techniques: ADCC",
+    "description": "Which submissions and moves are legal under ADCC rules, by division.",
+    "checked": "September 2026",
+    "sources": [
+      {
+        "label": "ADCC rules and Opens legal techniques grid (2026)",
+        "href": "https://adcc-official.com/pages/adcc-rules"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Data from bjj-data by Grapple Flows (https://grappleflows.com)",
+    "repository": "https://github.com/GrappleFlows/bjj-data",
+    "disclaimer": "Rules change. Check the official rulebook for your event before competing. Not affiliated with IBJJF, ADCC, NAGA, or Grappling Industries."
+  },
+  "legend": {
+    "Y": "Legal",
+    "N": "Illegal",
+    "C": "Depends"
+  },
+  "notes": [
+    "Each row has one cell per column, in column order. \"Y\" legal, \"N\" illegal, \"C\" conditional: read the row note."
+  ],
+  "key": "adcc",
+  "uniform": "nogi",
+  "id": "adcc",
+  "name": "ADCC",
+  "short": "ADCC",
+  "source": {
+    "label": "ADCC rules and Opens legal techniques grid (2026)",
+    "href": "https://adcc-official.com/pages/adcc-rules"
+  },
+  "penalty": "See the ADCC rules for how the referee penalizes fouls and illegal techniques.",
+  "columns": [
+    {
+      "id": "kids",
+      "label": "Kids 12 and under"
+    },
+    {
+      "id": "t1314bi",
+      "label": "Teens 13 to 14, beginner and intermediate"
+    },
+    {
+      "id": "t1314a",
+      "label": "Teens 13 to 14, advanced"
+    },
+    {
+      "id": "t1517bi",
+      "label": "Teens 15 to 17, beginner and intermediate"
+    },
+    {
+      "id": "t1517a",
+      "label": "Teens 15 to 17, advanced"
+    },
+    {
+      "id": "adbi",
+      "label": "Adults, beginner and intermediate"
+    },
+    {
+      "id": "ada",
+      "label": "Adults, advanced"
+    },
+    {
+      "id": "mabi",
+      "label": "Masters, beginner and intermediate"
+    },
+    {
+      "id": "maa",
+      "label": "Masters, advanced"
+    },
+    {
+      "id": "pro",
+      "label": "World Championship and Trials"
+    }
+  ],
+  "rows": [
+    {
+      "id": "ezekiel",
+      "label": "Ezekiel or punch choke",
+      "cells": [
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "guillotine",
+      "label": "Standing guillotine",
+      "cells": [
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "knee-reaping",
+      "label": "Knee reaping",
+      "cells": [
+        "N",
+        "C",
+        "C",
+        "C",
+        "C",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ],
+      "note": "At the Opens, teens 13 to 17 may reap only unlocked. Adults and masters may also reap locked, except from belly-down cross ashi. The World Championship allows any leg lock."
+    },
+    {
+      "id": "straight-ankle-lock",
+      "label": "Straight ankle lock",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "heel-hook",
+      "label": "Heel hook",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "N",
+        "Y",
+        "Y"
+      ],
+      "note": "Adult beginners may heel hook at ADCC Opens. Masters beginners and intermediates may not."
+    },
+    {
+      "id": "knee-bar",
+      "label": "Knee bar",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "toe-hold",
+      "label": "Toe hold, Aoki lock, Estima lock",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "calf-slicer",
+      "label": "Calf and bicep slicers",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "wrist-lock",
+      "label": "Wrist lock",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "neck-crank",
+      "label": "Neck crank, can opener, twister",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "note": "The Opens grid allows neck cranks \"except cervical\", can openers, and twisters for adults and masters. The World Championship rules allow can openers and twisters but ban neck cranks that trap both shoulders and push the neck down, like a full nelson."
+    },
+    {
+      "id": "suplex",
+      "label": "Suplex (not onto the head)",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "jumping-guard",
+      "label": "Jumping to closed guard",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "N",
+        "N",
+        "C"
+      ],
+      "note": "Not addressed in the World Championship rules."
+    },
+    {
+      "id": "scissor-takedown",
+      "label": "Scissor takedown (kani basami)",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y",
+        "N",
+        "N",
+        "C"
+      ],
+      "note": "Not addressed in the World Championship rules."
+    },
+    {
+      "id": "slam",
+      "label": "Slam",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "C"
+      ],
+      "note": "Illegal at every Opens division. At the World Championship a slam is only allowed while you are already locked in a submission, and you must stop if they let go."
+    },
+    {
+      "id": "spike",
+      "label": "Spiking the opponent on the head",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    }
+  ]
+}

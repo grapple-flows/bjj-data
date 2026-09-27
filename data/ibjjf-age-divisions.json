@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "dataset": "ibjjf-age-divisions",
+    "title": "IBJJF age divisions",
+    "description": "IBJJF age divisions by minimum and maximum age.",
+    "checked": "September 2026",
+    "sources": [
+      {
+        "label": "IBJJF event weight charts (2026 events)",
+        "href": "https://ibjjf.com/events"
+      },
+      {
+        "label": "IBJJF Rules Book v6.1 (June 2024)",
+        "href": "https://ibjjf.com/books-videos"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Data from bjj-data by Grapple Flows (https://grappleflows.com)",
+    "repository": "https://github.com/GrappleFlows/bjj-data",
+    "disclaimer": "Rules change. Check the official rulebook for your event before competing. Not affiliated with IBJJF, ADCC, NAGA, or Grappling Industries."
+  },
+  "notes": [
+    "Age is the event year minus the birth year, whatever the birthday.",
+    "Adult and master divisions have no maximum age (maxAge null). Masters may also enter younger master divisions and adult."
+  ],
+  "divisions": [
+    {
+      "name": "Mighty Mite 1",
+      "minAge": 4,
+      "maxAge": 4,
+      "group": "kids"
+    },
+    {
+      "name": "Mighty Mite 2",
+      "minAge": 5,
+      "maxAge": 5,
+      "group": "kids"
+    },
+    {
+      "name": "Mighty Mite 3",
+      "minAge": 6,
+      "maxAge": 6,
+      "group": "kids"
+    },
+    {
+      "name": "Pee Wee 1",
+      "minAge": 7,
+      "maxAge": 7,
+      "group": "kids"
+    },
+    {
+      "name": "Pee Wee 2",
+      "minAge": 8,
+      "maxAge": 8,
+      "group": "kids"
+    },
+    {
+      "name": "Pee Wee 3",
+      "minAge": 9,
+      "maxAge": 9,
+      "group": "kids"
+    },
+    {
+      "name": "Junior 1",
+      "minAge": 10,
+      "maxAge": 10,
+      "group": "kids"
+    },
+    {
+      "name": "Junior 2",
+      "minAge": 11,
+      "maxAge": 11,
+      "group": "kids"
+    },
+    {
+      "name": "Junior 3",
+      "minAge": 12,
+      "maxAge": 12,
+      "group": "kids"
+    },
+    {
+      "name": "Teen 1",
+      "minAge": 13,
+      "maxAge": 13,
+      "group": "kids"
+    },
+    {
+      "name": "Teen 2",
+      "minAge": 14,
+      "maxAge": 14,
+      "group": "kids"
+    },
+    {
+      "name": "Teen 3",
+      "minAge": 15,
+      "maxAge": 15,
+      "group": "kids"
+    },
+    {
+      "name": "Juvenile 1",
+      "minAge": 16,
+      "maxAge": 16,
+      "group": "juvenile"
+    },
+    {
+      "name": "Juvenile 2",
+      "minAge": 17,
+      "maxAge": 17,
+      "group": "juvenile"
+    },
+    {
+      "name": "Adult",
+      "minAge": 18,
+      "maxAge": null,
+      "group": "adult"
+    },
+    {
+      "name": "Master 1",
+      "minAge": 30,
+      "maxAge": null,
+      "group": "master"
+    },
+    {
+      "name": "Master 2",
+      "minAge": 36,
+      "maxAge": null,
+      "group": "master"
+    },
+    {
+      "name": "Master 3",
+      "minAge": 41,
+      "maxAge": null,
+      "group": "master"
+    },
+    {
+      "name": "Master 4",
+      "minAge": 46,
+      "maxAge": null,
+      "group": "master"
+    },
+    {
+      "name": "Master 5",
+      "minAge": 51,
+      "maxAge": null,
+      "group": "master"
+    },
+    {
+      "name": "Master 6",
+      "minAge": 56,
+      "maxAge": null,
+      "group": "master"
+    },
+    {
+      "name": "Master 7",
+      "minAge": 61,
+      "maxAge": null,
+      "group": "master"
+    }
+  ]
+}

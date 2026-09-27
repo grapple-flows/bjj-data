@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "dataset": "legal-techniques/naga-gi",
+    "title": "Legal techniques: NAGA gi",
+    "description": "Which submissions and moves are legal under NAGA gi rules, by division.",
+    "checked": "September 2026",
+    "sources": [
+      {
+        "label": "NAGA rules (2023, updated July 2024)",
+        "href": "https://www.nagafighter.com/rules/"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Data from bjj-data by Grapple Flows (https://grappleflows.com)",
+    "repository": "https://github.com/GrappleFlows/bjj-data",
+    "disclaimer": "Rules change. Check the official rulebook for your event before competing. Not affiliated with IBJJF, ADCC, NAGA, or Grappling Industries."
+  },
+  "legend": {
+    "Y": "Legal",
+    "N": "Illegal",
+    "C": "Depends"
+  },
+  "notes": [
+    "Each row has one cell per column, in column order. \"Y\" legal, \"N\" illegal, \"C\" conditional: read the row note."
+  ],
+  "key": "naga-gi",
+  "uniform": "gi",
+  "id": "naga",
+  "name": "NAGA gi",
+  "short": "NAGA",
+  "source": {
+    "label": "NAGA rules (2023, updated July 2024)",
+    "href": "https://www.nagafighter.com/rules/"
+  },
+  "penalty": "See the NAGA rules for how illegal techniques are penalized at your event.",
+  "columns": [
+    {
+      "id": "kids",
+      "label": "Kids 13 and under"
+    },
+    {
+      "id": "teens",
+      "label": "Teens 14 to 17"
+    },
+    {
+      "id": "white",
+      "label": "White belt"
+    },
+    {
+      "id": "blue",
+      "label": "Blue belt"
+    },
+    {
+      "id": "purple",
+      "label": "Purple belt"
+    },
+    {
+      "id": "bb",
+      "label": "Brown and black belt"
+    }
+  ],
+  "rows": [
+    {
+      "id": "straight-ankle-lock",
+      "label": "Straight foot lock",
+      "cells": [
+        "N",
+        "Y",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "wrist-lock",
+      "label": "Wrist lock",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "kidney-compression",
+      "label": "Rib or neck compression with the legs",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "knee-bar",
+      "label": "Knee bar",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "id": "toe-hold",
+      "label": "Toe hold",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "id": "calf-slicer",
+      "label": "Calf and bicep slicers",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "id": "heel-hook",
+      "label": "Heel hook",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "neck-crank",
+      "label": "Neck crank and twister",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "scissor-takedown",
+      "label": "Scissor takedown (kani basami)",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "slam",
+      "label": "Slam",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "jumping-guard",
+      "label": "Jumping guard",
+      "cells": [
+        "N",
+        "C",
+        "C",
+        "Y",
+        "Y",
+        "Y"
+      ],
+      "note": "Teens: expert division with flying submissions only. White belts: only against a higher belt."
+    },
+    {
+      "id": "knee-reaping",
+      "label": "Knee reaping",
+      "cells": [
+        "N",
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "note": "Not covered by NAGA's gi chart. NAGA says its gi divisions follow IBJJF rules, so expect reaping to be illegal."
+    }
+  ]
+}

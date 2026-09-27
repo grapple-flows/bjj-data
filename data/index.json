@@ -1,0 +1,123 @@
+{
+  "name": "bjj-data",
+  "attribution": "Data from bjj-data by Grapple Flows (https://grappleflows.com)",
+  "license": "CC-BY-4.0",
+  "repository": "https://github.com/GrappleFlows/bjj-data",
+  "files": [
+    {
+      "path": "weight-classes.json",
+      "title": "IBJJF and ADCC weight classes",
+      "checked": "September 2026"
+    },
+    {
+      "path": "weight-classes/ibjjf-gi-adult-male.json",
+      "title": "IBJJF gi, adult and master, male",
+      "checked": "September 2026"
+    },
+    {
+      "path": "weight-classes/ibjjf-gi-adult-female.json",
+      "title": "IBJJF gi, adult and master, female",
+      "checked": "September 2026"
+    },
+    {
+      "path": "weight-classes/ibjjf-gi-juvenile-male.json",
+      "title": "IBJJF gi, juvenile, male",
+      "checked": "September 2026"
+    },
+    {
+      "path": "weight-classes/ibjjf-gi-juvenile-female.json",
+      "title": "IBJJF gi, juvenile, female",
+      "checked": "September 2026"
+    },
+    {
+      "path": "weight-classes/ibjjf-nogi-adult-male.json",
+      "title": "IBJJF no-gi, adult and master, male",
+      "checked": "September 2026"
+    },
+    {
+      "path": "weight-classes/ibjjf-nogi-adult-female.json",
+      "title": "IBJJF no-gi, adult and master, female",
+      "checked": "September 2026"
+    },
+    {
+      "path": "weight-classes/ibjjf-nogi-juvenile-male.json",
+      "title": "IBJJF no-gi, juvenile, male",
+      "checked": "September 2026"
+    },
+    {
+      "path": "weight-classes/ibjjf-nogi-juvenile1-male-majors.json",
+      "title": "IBJJF no-gi majors, Juvenile 1, male",
+      "checked": "September 2026"
+    },
+    {
+      "path": "weight-classes/ibjjf-nogi-juvenile-female.json",
+      "title": "IBJJF no-gi, juvenile, female",
+      "checked": "September 2026"
+    },
+    {
+      "path": "weight-classes/adcc-pro-male.json",
+      "title": "ADCC World Championship, men",
+      "checked": "September 2026"
+    },
+    {
+      "path": "weight-classes/adcc-pro-female.json",
+      "title": "ADCC World Championship, women",
+      "checked": "September 2026"
+    },
+    {
+      "path": "weight-classes/adcc-open-male.json",
+      "title": "ADCC Opens, adult and masters, men",
+      "checked": "September 2026"
+    },
+    {
+      "path": "weight-classes/adcc-open-female.json",
+      "title": "ADCC Opens, adult and masters, women",
+      "checked": "September 2026"
+    },
+    {
+      "path": "ibjjf-age-divisions.json",
+      "title": "IBJJF age divisions",
+      "checked": "September 2026"
+    },
+    {
+      "path": "legal-techniques.json",
+      "title": "Legal techniques by ruleset and division",
+      "checked": "September 2026"
+    },
+    {
+      "path": "legal-techniques/ibjjf.json",
+      "title": "Legal techniques: IBJJF",
+      "checked": "September 2026"
+    },
+    {
+      "path": "legal-techniques/adcc.json",
+      "title": "Legal techniques: ADCC",
+      "checked": "September 2026"
+    },
+    {
+      "path": "legal-techniques/naga-nogi.json",
+      "title": "Legal techniques: NAGA no-gi",
+      "checked": "September 2026"
+    },
+    {
+      "path": "legal-techniques/naga-gi.json",
+      "title": "Legal techniques: NAGA gi",
+      "checked": "September 2026"
+    },
+    {
+      "path": "legal-techniques/grappling-industries.json",
+      "title": "Legal techniques: Grappling Industries",
+      "checked": "September 2026"
+    },
+    {
+      "path": "belt-requirements.json",
+      "title": "IBJJF belt requirements",
+      "checked": "September 2026"
+    },
+    {
+      "path": "taxonomy.json",
+      "title": "BJJ positions and submissions vocabulary",
+      "checked": null
+    }
+  ]
+}

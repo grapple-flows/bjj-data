@@ -1,0 +1,64 @@
+{
+  "name": "bjj-data",
+  "version": "0.1.0",
+  "description": "Brazilian jiu-jitsu reference data: IBJJF and ADCC weight classes, IBJJF age divisions, legal techniques by ruleset, IBJJF belt requirements, and a position and submission vocabulary. TypeScript and JSON.",
+  "keywords": [
+    "bjj",
+    "brazilian-jiu-jitsu",
+    "jiu-jitsu",
+    "ibjjf",
+    "adcc",
+    "naga",
+    "grappling",
+    "weight-classes",
+    "belt-requirements",
+    "legal-techniques"
+  ],
+  "homepage": "https://github.com/GrappleFlows/bjj-data#readme",
+  "bugs": {
+    "url": "https://github.com/GrappleFlows/bjj-data/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrappleFlows/bjj-data.git"
+  },
+  "license": "(MIT AND CC-BY-4.0)",
+  "author": {
+    "name": "Grapple Flows",
+    "url": "https://grappleflows.com"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./data/*": "./data/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "src",
+    "data",
+    "LICENSE",
+    "DATA-LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && node scripts/build-json.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "sync": "node scripts/sync-from-app.mjs",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.2"
+  }
+}

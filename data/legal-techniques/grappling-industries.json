@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "dataset": "legal-techniques/grappling-industries",
+    "title": "Legal techniques: Grappling Industries",
+    "description": "Which submissions and moves are legal under Grappling Industries rules, by division.",
+    "checked": "September 2026",
+    "sources": [
+      {
+        "label": "Grappling Industries rulebook (Feb 2026)",
+        "href": "https://grapplingindustries.com/rules/"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Data from bjj-data by Grapple Flows (https://grappleflows.com)",
+    "repository": "https://github.com/GrappleFlows/bjj-data",
+    "disclaimer": "Rules change. Check the official rulebook for your event before competing. Not affiliated with IBJJF, ADCC, NAGA, or Grappling Industries."
+  },
+  "legend": {
+    "Y": "Legal",
+    "N": "Illegal",
+    "C": "Depends"
+  },
+  "notes": [
+    "Each row has one cell per column, in column order. \"Y\" legal, \"N\" illegal, \"C\" conditional: read the row note.",
+    "Grappling Industries brown and black belts: heel hooks and scissor takedowns are legal in no-gi only (resolveCell in the npm package)."
+  ],
+  "key": "grappling-industries",
+  "uniform": "both",
+  "id": "gi",
+  "name": "Grappling Industries",
+  "short": "Grappling Industries",
+  "source": {
+    "label": "Grappling Industries rulebook (Feb 2026)",
+    "href": "https://grapplingindustries.com/rules/"
+  },
+  "penalty": "Using a technique that is illegal at your level means disqualification (rule 9.6).",
+  "columns": [
+    {
+      "id": "u18",
+      "label": "Under 18"
+    },
+    {
+      "id": "white",
+      "label": "White belt"
+    },
+    {
+      "id": "bp",
+      "label": "Blue belt, and purple belt in the gi"
+    },
+    {
+      "id": "pbb",
+      "label": "Purple belt in no-gi, brown and black belt"
+    }
+  ],
+  "rows": [
+    {
+      "id": "ezekiel",
+      "label": "Ezekiel choke and gogoplata",
+      "cells": [
+        "N",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "kidney-compression",
+      "label": "Kidney compression and groin stretch",
+      "cells": [
+        "N",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "straight-ankle-lock",
+      "label": "Straight or rotational ankle lock",
+      "cells": [
+        "N",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "wrist-lock",
+      "label": "Wrist lock",
+      "cells": [
+        "N",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "guillotine",
+      "label": "Standing guillotine",
+      "cells": [
+        "N",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "jumping-guard",
+      "label": "Jumping attacks",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "knee-bar",
+      "label": "Knee bar",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "toe-hold",
+      "label": "Toe hold",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "knee-reaping",
+      "label": "Knee reaping",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ],
+      "note": "Below the legal level, the first reap without a submission is a penalty, and a second reap or a reap with a submission is a disqualification."
+    },
+    {
+      "id": "calf-slicer",
+      "label": "Bicep and calf slicers",
+      "cells": [
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ]
+    },
+    {
+      "id": "neck-crank",
+      "label": "Neck and spinal cranks",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "Y"
+      ]
+    },
+    {
+      "id": "heel-hook",
+      "label": "Heel hook and Z-lock",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "C"
+      ],
+      "note": "No-gi only."
+    },
+    {
+      "id": "scissor-takedown",
+      "label": "Scissor takedown (kani basami)",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "C"
+      ],
+      "note": "No-gi only."
+    },
+    {
+      "id": "slam",
+      "label": "Slam and attacks on the trachea",
+      "cells": [
+        "N",
+        "N",
+        "N",
+        "N"
+      ],
+      "note": "A controlled suplex is not a slam. Spiking the head or neck is never allowed."
+    }
+  ]
+}

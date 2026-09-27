@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "dataset": "belt-requirements",
+    "title": "IBJJF belt requirements",
+    "description": "IBJJF minimum age and minimum time at each adult belt, the exceptions, and black belt degree times.",
+    "checked": "September 2026",
+    "sources": [
+      {
+        "label": "IBJJF General System of Graduation, June 2026 (v3.3)",
+        "href": "https://ibjjf.com/graduation-system"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Data from bjj-data by Grapple Flows (https://grappleflows.com)",
+    "repository": "https://github.com/GrappleFlows/bjj-data",
+    "disclaimer": "Rules change. Check the official rulebook for your event before competing. Not affiliated with IBJJF, ADCC, NAGA, or Grappling Industries."
+  },
+  "notes": [
+    "Age counts by birth year: current year minus birth year (Art. 2.2.1).",
+    "Time at a belt counts from the day the belt was registered with IBJJF, not the day it was tied on (Art. 3.2.1).",
+    "These are minimums for IBJJF recognition. The professor decides when."
+  ],
+  "belts": [
+    {
+      "id": "white",
+      "label": "White",
+      "minimumAge": 0,
+      "minimumMonthsAtBelt": 0
+    },
+    {
+      "id": "blue",
+      "label": "Blue",
+      "minimumAge": 16,
+      "minimumMonthsAtBelt": 24
+    },
+    {
+      "id": "purple",
+      "label": "Purple",
+      "minimumAge": 16,
+      "minimumMonthsAtBelt": 18
+    },
+    {
+      "id": "brown",
+      "label": "Brown",
+      "minimumAge": 18,
+      "minimumMonthsAtBelt": 12
+    },
+    {
+      "id": "black",
+      "label": "Black",
+      "minimumAge": 19,
+      "minimumMonthsAtBelt": null
+    }
+  ],
+  "minimumAgeExceptions": [
+    {
+      "belt": "black",
+      "condition": "adult-world-champion-at-brown",
+      "minimumAge": 18
+    }
+  ],
+  "minimumTimeRules": [
+    {
+      "belt": "blue",
+      "condition": "standard",
+      "minimumMonths": 24,
+      "reason": "The standard adult minimum (Art. 3.1.3 a)."
+    },
+    {
+      "belt": "blue",
+      "condition": "kids-grey-or-yellow-before-blue",
+      "minimumMonths": 12,
+      "reason": "1 year: previously registered as a grey, yellow, or orange belt (Art. 3.1.3 b)."
+    },
+    {
+      "belt": "blue",
+      "condition": "kids-orange-before-blue",
+      "minimumMonths": 12,
+      "reason": "1 year: previously registered as a grey, yellow, or orange belt (Art. 3.1.3 b)."
+    },
+    {
+      "belt": "blue",
+      "condition": "kids-green-before-blue",
+      "minimumMonths": 0,
+      "reason": "No minimum: previously registered as a green belt (Art. 3.1.3 c)."
+    },
+    {
+      "belt": "blue",
+      "condition": "registered-as-juvenile",
+      "minimumMonths": 0,
+      "reason": "No minimum: blue belt registered as a juvenile, age 16-17 (Art. 3.1.3 d)."
+    },
+    {
+      "belt": "blue",
+      "condition": "adult-world-champion-at-this-belt",
+      "minimumMonths": 0,
+      "reason": "No minimum: Adult Blue Belt World Champion (Art. 3.1.3 e)."
+    },
+    {
+      "belt": "purple",
+      "condition": "standard",
+      "minimumMonths": 18,
+      "reason": "The standard adult minimum (Art. 3.1.3 a)."
+    },
+    {
+      "belt": "purple",
+      "condition": "blue-registered-as-juvenile",
+      "minimumMonths": 12,
+      "reason": "1 year: blue belt was registered as a juvenile (Art. 3.1.3 b)."
+    },
+    {
+      "belt": "purple",
+      "condition": "kids-orange-then-juvenile-blue",
+      "minimumMonths": 0,
+      "reason": "No minimum: orange or green belt, then juvenile blue belt (Art. 3.1.3 c)."
+    },
+    {
+      "belt": "purple",
+      "condition": "kids-green-then-juvenile-blue",
+      "minimumMonths": 0,
+      "reason": "No minimum: orange or green belt, then juvenile blue belt (Art. 3.1.3 c)."
+    },
+    {
+      "belt": "purple",
+      "condition": "registered-as-juvenile",
+      "minimumMonths": 0,
+      "reason": "No minimum: purple belt registered as a juvenile, age 16-17 (Art. 3.1.3 d)."
+    },
+    {
+      "belt": "purple",
+      "condition": "adult-world-champion-at-this-belt",
+      "minimumMonths": 0,
+      "reason": "No minimum: Adult Purple Belt World Champion (Art. 3.1.3 e)."
+    },
+    {
+      "belt": "brown",
+      "condition": "standard",
+      "minimumMonths": 12,
+      "reason": "The standard adult minimum (Art. 3.1.3 a)."
+    },
+    {
+      "belt": "brown",
+      "condition": "adult-world-champion-at-this-belt",
+      "minimumMonths": 0,
+      "reason": "No minimum: Adult Brown Belt World Champion (Art. 3.1.3 b)."
+    }
+  ],
+  "blackBeltDegrees": [
+    {
+      "degree": 1,
+      "label": "1st degree",
+      "yearsSincePrevious": 3,
+      "totalYears": 3
+    },
+    {
+      "degree": 2,
+      "label": "2nd degree",
+      "yearsSincePrevious": 3,
+      "totalYears": 6
+    },
+    {
+      "degree": 3,
+      "label": "3rd degree",
+      "yearsSincePrevious": 3,
+      "totalYears": 9
+    },
+    {
+      "degree": 4,
+      "label": "4th degree",
+      "yearsSincePrevious": 5,
+      "totalYears": 14
+    },
+    {
+      "degree": 5,
+      "label": "5th degree",
+      "yearsSincePrevious": 5,
+      "totalYears": 19
+    },
+    {
+      "degree": 6,
+      "label": "6th degree",
+      "yearsSincePrevious": 5,
+      "totalYears": 24
+    },
+    {
+      "degree": 7,
+      "label": "7th degree, red and black belt",
+      "yearsSincePrevious": 7,
+      "totalYears": 31,
+      "minAge": 49
+    },
+    {
+      "degree": 8,
+      "label": "8th degree, red and white belt",
+      "yearsSincePrevious": 7,
+      "totalYears": 38,
+      "minAge": 56
+    },
+    {
+      "degree": 9,
+      "label": "9th degree, red belt",
+      "yearsSincePrevious": 10,
+      "totalYears": 48,
+      "minAge": 66
+    }
+  ]
+}
