@@ -2,6 +2,8 @@
 
 Brazilian jiu-jitsu reference data (weight classes, age divisions, legal techniques by ruleset, belt promotion requirements, and a position and submission vocabulary) as JSON files and a small, dependency-free TypeScript package.
 
+Maintained by [Grapple Flows](https://grappleflows.com), and the same data behind its free [BJJ tools](https://grappleflows.com/tools).
+
 ## Datasets
 
 | Dataset | File | Source | As of |
