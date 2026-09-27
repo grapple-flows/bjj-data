@@ -10,7 +10,7 @@ import { KB_CATEGORIES, KB_TAG_ALIASES } from "./kbTaxonomy.js";
 import { SOURCES, type Source } from "./sources.js";
 
 export const ATTRIBUTION = "Data from bjj-data by Grapple Flows (https://grappleflows.com)";
-const REPOSITORY = "https://github.com/GrappleFlows/bjj-data";
+const REPOSITORY = "https://github.com/grapple-flows/bjj-data";
 const DISCLAIMER =
   "Rules change. Check the official rulebook for your event before competing. Not affiliated with IBJJF, ADCC, NAGA, or Grappling Industries.";
 

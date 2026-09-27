@@ -96,13 +96,13 @@ labelForTag("dlr");                    // "De La Riva"
 Every file is available from jsDelivr:
 
 ```
-https://cdn.jsdelivr.net/gh/GrappleFlows/bjj-data@main/data/<file>.json
+https://cdn.jsdelivr.net/gh/grapple-flows/bjj-data@main/data/<file>.json
 ```
 
 For example:
 
 ```js
-const res = await fetch("https://cdn.jsdelivr.net/gh/GrappleFlows/bjj-data@main/data/weight-classes/ibjjf-gi-adult-male.json");
+const res = await fetch("https://cdn.jsdelivr.net/gh/grapple-flows/bjj-data@main/data/weight-classes/ibjjf-gi-adult-male.json");
 const { classes } = await res.json();
 ```
 
@@ -121,7 +121,7 @@ The data is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4
 Copy-paste HTML:
 
 ```html
-<p>Data from <a href="https://github.com/GrappleFlows/bjj-data">bjj-data</a> by <a href="https://grappleflows.com">Grapple Flows</a>.</p>
+<p>Data from <a href="https://github.com/grapple-flows/bjj-data">bjj-data</a> by <a href="https://grappleflows.com">Grapple Flows</a>.</p>
 ```
 
 Every JSON file also carries this line in `meta.attribution`.
@@ -138,9 +138,9 @@ This data powers the free tools on grappleflows.com:
 
 ## Related
 
-- [bjj-timer](https://github.com/GrappleFlows/bjj-timer): a BJJ round timer web component with IBJJF match times.
-- [bjj-scoreboard](https://github.com/GrappleFlows/bjj-scoreboard): an IBJJF scoreboard web component with points, advantages, penalties, and tiebreaks.
-- [bjj-bracket](https://github.com/GrappleFlows/bjj-bracket): a tournament bracket generator for single elimination, double elimination, and round robin.
+- [bjj-timer](https://github.com/grapple-flows/bjj-timer): a BJJ round timer web component with IBJJF match times.
+- [bjj-scoreboard](https://github.com/grapple-flows/bjj-scoreboard): an IBJJF scoreboard web component with points, advantages, penalties, and tiebreaks.
+- [bjj-bracket](https://github.com/grapple-flows/bjj-bracket): a tournament bracket generator for single elimination, double elimination, and round robin.
 
 ## Corrections and updates
 

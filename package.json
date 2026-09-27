@@ -14,13 +14,13 @@
     "belt-requirements",
     "legal-techniques"
   ],
-  "homepage": "https://github.com/GrappleFlows/bjj-data#readme",
+  "homepage": "https://github.com/grapple-flows/bjj-data#readme",
   "bugs": {
-    "url": "https://github.com/GrappleFlows/bjj-data/issues"
+    "url": "https://github.com/grapple-flows/bjj-data/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GrappleFlows/bjj-data.git"
+    "url": "git+https://github.com/grapple-flows/bjj-data.git"
   },
   "license": "(MIT AND CC-BY-4.0)",
   "author": {

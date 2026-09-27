@@ -2,7 +2,7 @@
   "name": "bjj-data",
   "attribution": "Data from bjj-data by Grapple Flows (https://grappleflows.com)",
   "license": "CC-BY-4.0",
-  "repository": "https://github.com/GrappleFlows/bjj-data",
+  "repository": "https://github.com/grapple-flows/bjj-data",
   "files": [
     {
       "path": "weight-classes.json",
