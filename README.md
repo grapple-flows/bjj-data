@@ -136,6 +136,12 @@ This data powers the free tools on grappleflows.com:
 - [Legal techniques by belt and ruleset](https://grappleflows.com/bjj-legal-techniques)
 - [IBJJF belt requirements](https://grappleflows.com/bjj-belt-requirements)
 
+## Related
+
+- [bjj-timer](https://github.com/GrappleFlows/bjj-timer): a BJJ round timer web component with IBJJF match times.
+- [bjj-scoreboard](https://github.com/GrappleFlows/bjj-scoreboard): an IBJJF scoreboard web component with points, advantages, penalties, and tiebreaks.
+- [bjj-bracket](https://github.com/GrappleFlows/bjj-bracket): a tournament bracket generator for single elimination, double elimination, and round robin.
+
 ## Corrections and updates
 
 If a rulebook changes or a value is wrong, open an issue with a link to the official document and the page or article number.
